@@ -41,3 +41,62 @@ body {
     width: auto;
     height: 100px;
 }
+
+.source {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+}
+
+.link {
+    color: white;
+    
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(240, 240, 240);
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.content form {
+    background-color: white;
+    height: 400px;
+}
+
+.btn {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+button[type] {
+    width: 200px;
+    height: 75px;
+    border-radius: 20px;
+    color: white;
+    background:#4da8e1;
+    border: 3px solid #d2b66b;
+    cursor: pointer;
+}
+
+.text {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+/* Make bottom of logo background at same height as the top of the form*/
