@@ -17,7 +17,7 @@ body {
 
 .logo {
     position: absolute;
-    top: 25%;
+    top: 149px;
     width: 100%;
     background-color: black;
     opacity: 0.7;
@@ -98,5 +98,3 @@ button[type] {
     padding-left: 50px;
     padding-bottom: 50px;
 }
-
-/* Make bottom of logo background at same height as the top of the form*/
