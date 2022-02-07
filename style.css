@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     display: flex;
 }
@@ -17,7 +21,7 @@ body {
 
 .logo {
     position: absolute;
-    top: 149px;
+    top: 190px;
     width: 100%;
     background-color: black;
     opacity: 0.7;
@@ -39,7 +43,9 @@ body {
 
 .logoimage {
     width: auto;
-    height: 100px;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .source {
@@ -70,14 +76,14 @@ a:visited {
     flex-grow: 1;
     background-color: rgb(240, 240, 240);
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 125px;
     padding-bottom: 150px;
 }
 
 .content form {
     background-color: white;
     padding-left: 50px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -99,6 +105,7 @@ button[type] {
 .text {
     padding-left: 50px;
     padding-bottom: 50px;
+    padding-right: 300px;
 }
 
 .inputs {
@@ -117,10 +124,26 @@ button[type] {
 input {
     width: 250px;
     height: 40px;
+    padding-left: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
 }
 
 .row {
     display: flex;
     justify-content: left;
     gap: 75px;
+}
+
+.text, form > :first-child {
+    font-size: 30px;
+}
+
+.text, form > :first-child, label {
+    font-weight: 500;
+}
+
+label {
+    font-size: 14px;
+    letter-spacing: 2px;
 }
