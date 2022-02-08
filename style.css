@@ -135,6 +135,7 @@ input {
     padding-left: 12px;
     border: 1px solid lightgray;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 .row {
@@ -162,4 +163,16 @@ form {
 
 .input span {
     letter-spacing: 0px;
+}
+
+.nomatch {
+    color: red;
+    border: 1px solid red;
+}
+
+#passworderror {
+    color: red;
+    size: 10px;
+    padding-left: 5px;
+    height: 19px;
 }
