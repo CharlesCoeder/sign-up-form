@@ -8,8 +8,8 @@ body {
     height: 100vh;  
 }
 
-img {
-    width: auto;
+#background {
+    width: 33vw;
     height: 100vh;
 }
 
@@ -19,18 +19,21 @@ body {
 
 .image {
     position: relative;
+    width: 33vw;
+    height: 100vh;
 }
 
 .logo {
     position: absolute;
-    top: 190px;
+    top: 19.5vh;
     width: 100%;
+    height: 18vh;
     background-color: black;
     opacity: 0.7;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 1vw;
 }
 
 .logotext, .logoimage {
@@ -40,14 +43,14 @@ body {
 .logotext {
     color: white;
     font-family: 'Freckle Face', cursive;
-    font-size: 100px;
+    font-size: 6.25rem;
 }
 
 .logoimage {
     width: auto;
-    height: 130px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    height: 14.5vh;
+    padding-top: 1.4vh;
+    padding-bottom: 1.4vh;
 }
 
 .source {
@@ -78,18 +81,19 @@ a:visited {
     flex-grow: 1;
     background-color: rgb(240, 240, 240);
     flex-direction: column;
-    padding-top: 125px;
+    padding-top: 13vh;
+    width: 67vw;
 }
 
 .content form {
     background-color: white;
-    padding-left: 50px;
+    padding-left: 2.5vw;
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
 .btn {
-    padding-left: 50px;
+    padding-left: 2.5vw;
     padding-top: 30px;
 }
 
@@ -112,15 +116,14 @@ button:active {
 }
 
 .text {
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-right: 300px;
+    padding-left: 2.5vw;
+    padding-bottom: 4.5vh;
+    height: 20vh;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 25px;
     margin-top: 25px;
 }
@@ -131,8 +134,8 @@ button:active {
 }
 
 input {
-    width: 250px;
-    height: 40px;
+    width: 13vw;
+    height: 4vh;
     padding-left: 12px;
     border: 1px solid lightgray;
     border-radius: 8px;
@@ -146,7 +149,7 @@ input {
 }
 
 .text, form > :first-child {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .text, form > :first-child, label {
